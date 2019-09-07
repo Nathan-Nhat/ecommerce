@@ -1,6 +1,6 @@
 import React from 'react';
-import NavItem from '../../NavItem/NavItemcomponent';
 
+import NavItem from '../NavItem/NavItemcomponent'
 const NavBar = () => {
     const MenuItem = [
         {

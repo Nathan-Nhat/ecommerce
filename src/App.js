@@ -8,6 +8,7 @@ import Jacketspage from './pages/jacketspage/jacketspage.component'
 import Menspage from './pages/menspage/menspage.component'
 import Womenspage from './pages/womenspage/womenspage.component'
 import Shoppage from './pages/shoppage/shoppage.component'
+import Paymentpage from './pages/paymentpage/paymentpage.component'
 function App() {
   return (
     <div>
@@ -19,6 +20,7 @@ function App() {
         <Route path = '/mens' component = {Menspage}/>
         <Route path = '/womens' component = {Womenspage}/>
         <Route path = '/shop' component = {Shoppage}/>
+        <Route path = '/payment' component = {Paymentpage}/>
       </Switch>
     </div>
   );
